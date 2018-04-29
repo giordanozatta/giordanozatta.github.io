@@ -8,7 +8,9 @@
     text-shadow: none;
 }
 
-
+#home{
+    position: absolute;
+}
 
 hr {
     display: block;
