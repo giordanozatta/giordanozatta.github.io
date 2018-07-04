@@ -96,7 +96,7 @@ text5 {
     font-weight: 500;
     margin: 0px;
     padding: 10px;
-    position: absolutev;
+    position: fixed;
     bottom: 0;
 }
 
