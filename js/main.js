@@ -7,7 +7,7 @@ $('.link').click(function(){
 
 $('.link2').click(function(){
     console.log('you clicked');
-    window.location.assign('https://www.instagram.com/giordanozatta/')
+    window.location.assign('contact.html')
 })
 
 var slideIndex = 1;
