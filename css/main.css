@@ -186,19 +186,6 @@ nav {
     height: 100%;
     position:relative;
 }
-
-.box2{
-    float: left;
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 100%;
-    position: fixed;
-}
-
-.topbox{
-    height: 150px;
-}
-
 .contact{
     padding: 10px;
     position: fixed;
