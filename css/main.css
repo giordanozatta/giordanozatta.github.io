@@ -8,12 +8,7 @@
     text-shadow: none;
 }
 
-#home{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-   
-}
+
 
 hr {
     display: block;
@@ -46,66 +41,88 @@ textarea {
 html{
     margin: 0px;
     padding: 0px;
-    font-family: "Helvetica Neue" , Helvetica , sans-serif;
-}
+    font-family: "Helvetica Neue ", Helvetica , sans-serif;
+    color: black;
+    }
 .browserupgrade {
     margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+    background: white;
+    color: white;
+    padding: 2em 0;
 }
   
+
 text{
     color: black;
-    font-family: "Helvetica Neue" , Helvetica , sans-serif;
+    font-family: "Helvetica Neue " , Helvetica , sans-serif;
     font-size: 33px;
     letter-spacing: -0.04em;
     font-weight: 500;
     margin: 0px;
-    padding: 0px;
+    padding: 5px;
+    
 }
 
 h2{
-    color: black;
-    font-family: "Helvetica Neue" , Helvetica , sans-serif;
-    font-size: 24px;
-    line-height: 26px;
-    letter-spacing: -0.02em;
-    font-weight: 500;
-    margin: 0px;
-    padding: 0px;
-}
-p1{
-    color: black;
-    font-family: "Helvetica Neue" , Helvetica , sans-serif;
-    font-size: 24px;
-    line-height: 26px;
-    letter-spacing: -0.02em;
-    font-weight: 500;
-    margin: 0px;
-    padding: 0px;
-}
-text4{
-    color: black;
-    font-family: "Helvetica Neue" , Helvetica , sans-serif;
-    font-size: 12px;
-    line-height: 5px;
+    font-family: "Helvetica Neue " , Helvetica , sans-serif;
+    font-size: 16px;
+    line-height: 18px;
     letter-spacing: -0.01em;
     font-weight: 500;
     margin: 0px;
     padding: 0px;
+    text-indent: 0em;
 }
+text2{
+    font-family: "Helvetica Neue " , Helvetica , sans-serif;
+    font-size: 24px;
+    letter-spacing: -0.02em;
+    font-weight: 500;
+    margin: 0px;
+    padding: 10px;
+    line-height: 24px;
+}
+
+p1{
+    font-family: "Helvetica Neue " , Helvetica , sans-serif;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.01em;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+    text-indent: 0em;
+}
+p2{
+    font-family: "Helvetica Neue " , Helvetica , sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+    text-indent: 0em;
+}
+
+text4 {
+    font-family: "Helvetica Neue ", Helvetica , sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.0em;
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
 text5 {
     color: black;
-    font-family: "Helvetica Neue" , Helvetica , sans-serif;
+    font-family: "Helvetica Neue " , Helvetica , sans-serif;
     font-size: 12px;
     line-height: 11px;
     letter-spacing: -0.02em;
     font-weight: 500;
-    margin: 0px;
-    padding: 5px;
-    position: fixed;
-    bottom: 0;
+    
 }
 
 .container{
@@ -113,24 +130,9 @@ text5 {
     margin-left: auto;
     margin-right: auto;
 }
-.copyright{
-    margin: 0px;
-    padding-bottom: 0px ;
-    padding-top: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-    position: fixed;
-    bottom: 0;
-    
-}
-.curvedtext{
-    width: 100%;
-    height: 100%;
-    position:fixed;
-}
 
-a:active,a:visited,a:link{
-    color: #aaaaaa;
+a:active,a:visited, a:link{
+    color: black;
     text-decoration:none;
     font-style: normal;
     }
@@ -140,36 +142,102 @@ a:hover {
     font-style: oblique;
     }
 
+
 .row {
     display: flex;
-    margin: 15px;
+    margin: 7px;
     background-color: transparent;
 }
+
 
 .col1 {width: 25%;} 
 .col2 {width: 50%;}
 .col3 {width: 75%;}
 .col4 {width: 100%;}
 
+.copyright{
+    margin: 0px;
+    padding-bottom: 5px ;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: fixed;
+    bottom: 0;
+    
+}
+
 nav {
     width: 100%;
     background-color: transparent;
-    height: 100px;
+    height: 150px;
     padding: 0px;
-    margin: 0px;
-    position: fixed;
+    z-index: 100;
+    position: absolute;
+    padding: 10px
     }
-
-.work{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2%;
-    padding: 100px;
+.curvedtext{
     width: 100%;
     height: 100%;
-    position:fixed;
+    color: white;
+    display: block;
+}
+.curvedtext2{
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    color: white;
 }
 
+.box2{
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    position: fixed;
+}
+
+.topbox{
+    height: 150px;
+}
+
+.contact{
+    padding: 10px;
+    position: fixed;
+    
+}
+.works{
+    margin: 0;
+    padding: 10px;
+    border: 2px;
+    height: 100%;
+    float: left;
+}
+
+.images{
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+.none{
+    color: red;
+    background: red;
+    
+}
+
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 0px;
+    width: 0px;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.0);
+    background-size: 100%, 100%;
+    border-radius: 0px;
+    border: none;
+    padding: 0px;
+}
 .archive{
     float: right;
 }
