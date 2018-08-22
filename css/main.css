@@ -184,7 +184,7 @@ nav {
 .curvedtext2{
     width: 100%;
     height: 100%;
-    position:absolute;
+    position:relative;
     color: white;
 }
 
