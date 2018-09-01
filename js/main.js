@@ -6,7 +6,7 @@ $('.link').click(function(){
 })
 
 $('.link2').click(function(){
-    console.log('you clicked');
+    console.log('you click');
     window.location.assign('contact.html')
 })
 

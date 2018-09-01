@@ -10,15 +10,6 @@
 
 
 
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
-
 audio,
 canvas,
 iframe,
@@ -43,6 +34,7 @@ html{
     padding: 0px;
     font-family: "Helvetica Neue ", Helvetica , sans-serif;
     color: black;
+    
     }
 .browserupgrade {
     margin: 0.2em 0;
@@ -51,39 +43,25 @@ html{
     padding: 2em 0;
 }
   
+svg{
+    width: 100%;
+    height: 100%;
+}
+topbar{
+    position: fixed;
+}
 
 text{
-    color: black;
     font-family: "Helvetica Neue " , Helvetica , sans-serif;
     font-size: 33px;
     letter-spacing: -0.04em;
     font-weight: 500;
     margin: 0px;
-    padding: 5px;
-    
-}
-
-h2{
-    font-family: "Helvetica Neue " , Helvetica , sans-serif;
-    font-size: 16px;
-    line-height: 18px;
-    letter-spacing: -0.01em;
-    font-weight: 500;
-    margin: 0px;
     padding: 0px;
-    text-indent: 0em;
-}
-text2{
-    font-family: "Helvetica Neue " , Helvetica , sans-serif;
-    font-size: 24px;
-    letter-spacing: -0.02em;
-    font-weight: 500;
-    margin: 0px;
-    padding: 10px;
-    line-height: 24px;
-}
+    }
 
-p1{
+
+h1{
     font-family: "Helvetica Neue " , Helvetica , sans-serif;
     font-size: 40px;
     line-height: 42px;
@@ -91,44 +69,46 @@ p1{
     font-weight: 500;
     margin: 0px;
     padding: 0px;
-    text-indent: 0em;
+    text-align: center;
 }
-p2{
+h2{
     font-family: "Helvetica Neue " , Helvetica , sans-serif;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 36px;
+    line-height: 38px;
     letter-spacing: -0.01em;
     font-weight: 500;
     margin: 0px;
     padding: 0px;
-    text-indent: 0em;
+    text-align: left;
+    
 }
-
-text4 {
-    font-family: "Helvetica Neue ", Helvetica , sans-serif;
-    font-size: 16px;
-    line-height: 18px;
-    letter-spacing: 0.0em;
-    font-weight: 700;
+h3{
+    font-family: "Helvetica Neue " , Helvetica , sans-serif;
+    font-size: 61px;
+    line-height: 63px;
+    letter-spacing: -0.01em;
+    font-weight: 500;
     margin: 0px;
     padding: 0px;
-    
+    background-color: transparent;
+    text-align: left;
 }
-
-text5 {
-    color: black;
+h4{
     font-family: "Helvetica Neue " , Helvetica , sans-serif;
-    font-size: 12px;
-    line-height: 11px;
-    letter-spacing: -0.02em;
+    font-size: 530px;
+    line-height: 530px;
+    letter-spacing: -0.03em;
     font-weight: 500;
-    
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
 }
 
-.container{
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+
+
+subtittle{
+    margin: 0px;
+    padding-left: 20px;
 }
 
 a:active,a:visited, a:link{
@@ -138,16 +118,18 @@ a:active,a:visited, a:link{
     }
 
 a:hover {
-    color:black;
-    font-style: oblique;
+    color:lightgrey;
+    text-decoration: none;
     }
-
 
 .row {
     display: flex;
-    margin: 7px;
+    margin: 0px;
+    padding: 10px;
     background-color: transparent;
 }
+
+
 
 
 .col1 {width: 25%;} 
@@ -155,92 +137,142 @@ a:hover {
 .col3 {width: 75%;}
 .col4 {width: 100%;}
 
-.copyright{
-    margin: 0px;
-    padding-bottom: 5px ;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    position: fixed;
-    bottom: 0;
-    
-}
 
-nav {
+nav{
     width: 100%;
     background-color: transparent;
-    height: 150px;
+    height: 20px;
     padding: 0px;
-    z-index: 100;
     position: absolute;
-    padding: 10px
+    padding: 0px;
     }
+
 .curvedtext{
     width: 100%;
     height: 100%;
     color: white;
     position:fixed;
-}
-.curvedtext2{
-    width: 100%;
-    height: 100%;
-    position:relative;
-}
-.contact{
-    padding: 10px;
-    position: fixed;
-    
-}
-.works{
-    margin: 0;
-    padding: 10px;
-    border: 2px;
-    height: 100%;
-    float: left;
-}
-
-.images{
-    position: relative;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-}
-.none{
-    color: red;
-    background: red;
-    
-}
-
-
-
-.carousel-control-prev-icon, .carousel-control-next-icon {
-    height: 0px;
-    width: 0px;
-    outline: none;
-    background-color: rgba(0, 0, 0, 0.0);
-    background-size: 100%, 100%;
-    border-radius: 0px;
-    border: none;
+    margin: 0px;
     padding: 0px;
 }
-.archive{
-    float: right;
+
+.space{
+    width: 100%;
+    height: 390px;
+    
+}
+hr {
+    height: 0px;
+    border: 0;
+    border-top: 2px solid #000;
+    margin: 1em 0;
+    
+}
+.randomtext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
 }
 
-#project1{
-    display:grid;
+
+@media only screen and (max-width: 769px) {
+.col1 {width: 100%;} 
+.col2 {width: 100%;}
+.col3 {width: 100%;}
+.col4 {width: 100%;}
+.col5 {width: 100%;}
+    
+h1{
+    font-family: "Helvetica Neue " , Helvetica , sans-serif;
+    font-size: 50px;
+    line-height: 48px;
+    letter-spacing: 0.00em;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
 }
-#project2{
-    display: grid;
+h2{
+    font-family: "Helvetica Neue " , Helvetica , sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: -0.01em;
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px;
+    padding-right: 10px;
+}
+    .space{
+    width: 100%;
+    height: 650px;
+    
+}    
+}
+@media only screen and (max-width: 415px) {
+.col1 {width: 100%;} 
+.col2 {width: 100%;}
+.col3 {width: 100%;}
+.col4 {width: 100%;}
+.col5 {width: 100%;}
+    
+h1{
+    font-family: "Helvetica Neue " , Helvetica , sans-serif;
+    font-size: 55px;
+    line-height: 40px;
+    letter-spacing: 0.00em;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+}
+h2{
+    font-family: "Helvetica Neue " , Helvetica , sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: -0.01em;
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px;
+    padding-right: 10px;
+}
+    .space{
+    width: 100%;
+    height: 350px;
+    
+}    
 }
 
 
+.marquee {
+  margin: 0px;
+  padding: 10px;
+  height: 50px;
+  width: 100%;
 
+  overflow: hidden;
+  position: relative;
+}
 
+.marquee div {
+  display: block;
+  width: 200%;
+  height: 40px;
+  color: black;
 
+  position: absolute;
+  overflow: hidden;
 
+  animation: marquee 12s linear infinite;
+}
 
+.marquee span {
+  float: left;
+  width: 25%;
+}
+
+@keyframes marquee {
+  0% { left: 0; }
+  100% { left: -100%; }
+}
 
 
 
