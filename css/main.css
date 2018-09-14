@@ -69,7 +69,6 @@ h1{
     font-weight: 500;
     margin: 0px;
     padding: 0px;
-    text-align: center;
 }
 h2{
     font-family: "Helvetica Neue " , Helvetica , sans-serif;
@@ -102,6 +101,7 @@ h4{
     margin: 0px;
     padding: 0px;
     text-align: center;
+    color: black;
 }
 
 
@@ -152,6 +152,9 @@ nav{
     color: white;
     position:absolute;
 }
+.info{
+    text-align: right;
+}
 
 .space{
     width: 100%;
@@ -165,12 +168,7 @@ hr {
     margin: 1em 0;
     
 }
-.randomtext{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-}
+
 
 
 @media only screen and (max-width: 600px) {
@@ -189,6 +187,7 @@ h1{
     margin: 0px;
     padding: 0px;
     text-align: center;
+    color: black;
 }
 .space{
     width: 100%;
@@ -212,6 +211,7 @@ h1{
     margin: 0px;
     padding: 0px;
     text-align: center;
+    color: black;
 }
 .space{
     width: 100%;
@@ -235,8 +235,7 @@ h1{
   width: 200%;
   height: 40px;
   color: black;
-
-  position: absolute;
+position: absolute;
   overflow: hidden;
 
   animation: marquee 12s linear infinite;
@@ -251,6 +250,7 @@ h1{
   0% { left: 0; }
   100% { left: -100%; }
 }
+
 
 
 
