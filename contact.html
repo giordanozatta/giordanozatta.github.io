@@ -21,59 +21,37 @@
     <body>
         
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <script>
-	jQuery('body').css('display','none');
-	jQuery(document).ready(function() {
-		jQuery('body').fadeIn();
-		jQuery('a').on('click',function(event){
-			var thetarget = this.getAttribute('target')
-			if (thetarget != "_blank"){			
-				var thehref = this.getAttribute('href')
-				event.preventDefault();
-				jQuery('body').fadeOut(function(){
-					//alert(thehref)
-					window.location = thehref					
-				});
-			}
-		});
-	});
-	setTimeout(function(){
-		jQuery('body').fadeIn();
-	},15000)
-</script>
+         <script>document.body.className += ' fade-out';</script>
         
 <nav>
-     <div class="marquee">
+
+    <div class="marquee">
   <div>
-    <span><a href="/index.html"><h1>Giordano Zatta</h1></a></span>
-      <span><a href="/index.html"><h1>Giordano Zatta</h1></a></span>
-      <span><a href="/index.html"><h1>Giordano Zatta</h1></a></span>
-      <span><a href="/index.html"><h1>Giordano Zatta</h1></a></span>
+      
+      <h1> <span><a href="/index.html">Giordano Zatta</a> – <a href="/selected.html">Work</a> – <a href="/contact.html">About & Contact</a></span></h1>
+      <h1> <span><a href="/index.html">Giordano Zatta</a> – <a href="/selected.html">Work</a> – <a href="/contact.html">About & Contact</a></span></h1>
+      <h1> <span><a href="/index.html">Giordano Zatta</a> – <a href="/selected.html">Work</a> – <a href="/contact.html">About & Contact</a></span></h1>
+      <h1> <span><a href="/index.html">Giordano Zatta</a> – <a href="/selected.html">Work</a> – <a href="/contact.html">About & Contact</a></span></h1>
+     
+      
   </div>
 </div>
     
-    <div class="row">
-        <div class="col3">
-            <h1><a href="/selected.html">WORK</a></h1>
-             
-             </div>
-    <div class="col1">
-        <div class="info">
-            <h1><a href="/contact.html">INFORMATION</a></h1>
-             </div></div>
-    
-<br><br><br>
+    </nav><div class="space"></div>
+        <div class="space"></div>
             
     <div class="row">   
     <div class="col2">
-        <h1>Giordano Zatta is currently finishing a Bachelor degree with honors in visual communication design at Massey University Wellington.
+        <h1>Giordano Zatta is currently finishing a Bachelor degree with Honors in Design at Massey University Wellington, Toi Rauwhārangi.
+<br><br>
+        For further information please contact.
 
 </h1><br><br>
         </div>
         <div class="col1"></div>
         <div class="col1">
-        <h1>M+64 220 994 462</h1>
-        <a href="mailto:special.giordano@hotmail.com?Subject=Hello Giordano" target="_top"><h1>Mail</h1></a>
+        <h1>64 220 994 462</h1>
+        <a href="mailto:special.giordano@hotmail.com?Subject=Hello Giordano" target="_top"><h1>e-mail</h1></a>
           <a href="https://www.instagram.com/giordanozatta/" target="_blank"><h1>Instagram</h1></a>
           <a href="https://www.are.na/giordano-zatta" target="_blank"><h1>Are.na</h1></a> 
 
@@ -86,11 +64,11 @@
     
    
      
-             </div>
+
         
     
       
-         </nav>
+         
         
             
     
