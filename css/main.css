@@ -224,7 +224,7 @@ h1{
 }
 .space{
     width: 100%;
-    height: 390px;  
+    height: 50px;  
 } 
     }
 
@@ -247,7 +247,7 @@ h1{
 position: absolute;
   overflow: hidden;
 
-  animation: marquee 12s linear infinite;
+  animation: marquee 15s linear infinite;
 }
 
 .marquee span {
