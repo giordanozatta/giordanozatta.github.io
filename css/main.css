@@ -322,7 +322,7 @@ h1{
 
 @media only screen and (max-width: 420px){
 [data-image-id="ImageLeft"]{ 
-    height: 100vw; 
+    height: 110vw; 
     margin: auto; 
     padding: 10px;}
 
