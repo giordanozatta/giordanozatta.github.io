@@ -327,7 +327,7 @@ h1{
     padding: 10px;}
 
 [data-image-id="ImageCentre"]{ 
-    height: 100vw; 
+    height: 90vw; 
     margin: auto; 
     padding: 10px;}
 
@@ -338,6 +338,12 @@ h1{
 
 
 [data-image-id="ImageCentreNoSpace"]{ 
+    height: 65vw; 
+    margin: auto;
+    padding: 0px;}
+}
+   
+[data-image-id="ImageCentreSpace"]{ 
     height: 65vw; 
     margin: auto;
     padding: 0px;}
