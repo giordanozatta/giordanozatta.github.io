@@ -124,6 +124,16 @@ h1{
     padding: 10px;
     margin: auto;}
 
+[data-image-id="ImageCentre2"]{ 
+    height: 100vh;
+    padding: 10px;
+    margin: auto;}
+
+data-image-id="ImageCentre3"]{ 
+    height: 100vh;
+    padding: 10px;
+    margin: auto;}
+
 [data-image-id="ImageCentreSpace"]{ 
     height: 100vh;
     padding: 5%;
@@ -327,7 +337,12 @@ h1{
     padding: 10px;}
 
 [data-image-id="ImageCentre"]{ 
-    height: 90vw; 
+    height: 72vw; 
+    margin: auto; 
+    padding: 10px;}
+
+[data-image-id="ImageCentre2"]{ 
+    height: 110vw; 
     margin: auto; 
     padding: 10px;}
 
@@ -341,12 +356,16 @@ h1{
     height: 65vw; 
     margin: auto;
     padding: 0px;}
-}
    
 [data-image-id="ImageCentreSpace"]{ 
     height: 65vw; 
     margin: auto;
-    padding: 0px;}
+    padding: 10px;}
+
+[data-image-id="ImageCentre3"]{ 
+    height: 124vw; 
+    margin: auto;
+    padding: 10px;}
 }
     
 
