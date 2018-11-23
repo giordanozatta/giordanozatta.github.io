@@ -1,5 +1,4 @@
 
-
 $('.link').click(function(){
     console.log('you clicked');
     window.location.assign('selected.html')
