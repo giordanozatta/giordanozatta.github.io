@@ -29,8 +29,6 @@ textarea {
     display: none; 
 }
 
-
-
 html{
     margin: 0px;
     padding: 0px;
@@ -181,21 +179,14 @@ carousel {
   top:0;
   width:50%;
   height:100%;
-  visibility:hidden;
-    
-        
-
-}
+  visibility:hidden;}
 .carousel > label:before {
   content:'';
   display:block;
   position:absolute;
   width:100%;
   height:100%;
-  visibility:visible;
-    
-    
-}
+  visibility:visible;}
 .carousel > label:after {
   display:block;
   position:absolute;
@@ -206,27 +197,19 @@ carousel {
   margin:-15px 10px 0 10px;
   background-color:transparent;
   text-align:center;
-  visibility:hidden;
-}
+  visibility:hidden;}
 .carousel > label:hover:after {
-  visibility:visible;
-    
-}
-
+  visibility:visible;}
 .carousel > input:checked + label:after {
   left:0;
-  content:'';
-    
-}
+  content:'';}
 .carousel > input:checked ~ label ~ label ~ label:after {
   right:0;
-  content:'';
-    
-}
+  content:'';}
+
 subtittle{
     margin: 0px;
-    padding-left: 0px;
-}
+    padding-left: 0px;}
 
 .about{
   position: absolute;
@@ -235,29 +218,21 @@ subtittle{
   width: auto;
   position: fixed;
     z-index: 10;
-    color: black;
-}
-
-
-
+    color: black;}
 
 a:active,a:visited, a:link{
     color: black;
     text-decoration:none;
-    font-style: normal;
-    }
-
+    font-style: normal;}
 a:hover {
     color:lightgrey;
-    text-decoration: none;
-    }
+    text-decoration: none;}
 
 .row {
     display: flex;
     margin: 0px;
     padding: 0px;
-    background-color: transparent;
-}
+    background-color: transparent;}
 .row2 {
     display: flex;
     margin: 0px;
@@ -274,21 +249,35 @@ a:hover {
     padding-left: 10px;
     margin: 0px;
 }
-.copyright{
-    bottom: 0;
-    left: 0;
-    padding: 0px;
-    margin: 0px;
-}
-
-
 
 .curvedtext{
     width: 100%;
     color: white;
     position:absolute;
 }
+@media only screen and (max-width: 1200px){
+[data-image-id="ImageLeft"]{ 
+    height: 100vh; 
+    left: 0; 
+    padding: 10px;}
 
+[data-image-id="ImageCentre"]{ 
+    height: 65vw;
+    padding: 10px;
+    margin: auto;}
+
+[data-image-id="ImageCentreSpace"]{ 
+    height: 65vw;
+    padding: 5%;
+    margin: auto;}
+
+
+[data-image-id="ImageCentreNoSpace"]{ 
+    height: 65vw; 
+    margin: auto;
+    padding: 0px;}
+}
+    
 
 
 
@@ -306,21 +295,19 @@ a:hover {
     
 h1{
     font-family: "Helvetica Neue " , Helvetica , sans-serif;
-    font-size: 16px;
-    line-height: 17px;
+    font-size: 19px;
+    line-height: 1.1;
     letter-spacing: -0.01em;
     font-weight: 500;
     margin: 0px;
     padding: 0px;
-    color: black;
+    color: red;
     -webkit-hyphens: auto;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
 }
-.mobile{
-        padding-left: 160px;
-    }
+
 .row2{
         display: block;
     }    
@@ -332,50 +319,32 @@ h1{
     top: 10px;
     width: auto;
     position: absolute; 
-    z-index: 99;
-}
-   
-}
+    z-index: 99;}
+   }
 
-@media only screen and (max-width: 420px) {
-.col1 {width: 100%;} 
-.col2 {width: 100%;}
-.col3 {width: 100%;}
-.col4 {width: 100%;}
-.col5 {width: 100%;}
-.col6 {width: 100%;} 
-.col7 {width: 100%;}
-.col8 {width: 100%;}
-.col9 {width: 100%;}
-.col10 {width: 100%;}
+@media only screen and (max-width: 380px){
+[data-image-id="ImageLeft"]{ 
+    height: 100vw; 
+    left: 0; 
+    padding: 10px;}
 
-h3{
-    font-family: "Helvetica Neue " , Helvetica , sans-serif;
-    font-size: 18px;
-    line-height: 21px;
-    letter-spacing: -0.01em;
-    font-weight: 500;
-    margin: 0px;
-    padding: 0px;
-    background-color: transparent;
-    text-align: left;
-}    
-h4{
-    font-family: "Helvetica Neue " , Helvetica , sans-serif;
-    font-size: 15px;
-    line-height: 17px;
-    letter-spacing: -0.01em;
-    font-weight: 500;
-    margin: 0px;
-    padding: 0px;
-    background-color: transparent;
-    text-align: left;
+[data-image-id="ImageCentre"]{ 
+    height: 65vw;
+    padding: 10px;
+    margin: auto;}
+
+[data-image-id="ImageCentreSpace"]{ 
+    height: 65vw;
+    padding: 5%;
+    margin: auto;}
+
+
+[data-image-id="ImageCentreNoSpace"]{ 
+    height: 65vw; 
+    margin: auto;
+    padding: 0px;}
 }
-.space{
-    width: 100%;
-    height: 30px;  
-} 
-    }
+    
 
 
 
