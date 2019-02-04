@@ -32,7 +32,7 @@ textarea {
 html{
     margin: 0px;
     padding: 0px;
-    font-family: "Helvetica Neue" , Helvetica , sans-serif;
+    font-family: "Helvetica Neue " , Helvetica , sans-serif;    
     color: black;
     background-color: transparent;}
 
@@ -66,19 +66,21 @@ body.fade-out {
 
 text{
     font-family: "Helvetica Neue" , Helvetica , sans-serif;
-    font-size: 28px;
     letter-spacing: -0.03em;
+    font-style: normal; 
     font-weight: 400;
+    font-size: 28px;
     margin: 0px;
     padding: 0px;
     }
 
 h1{
-    font-family: "Helvetica Neue " , Helvetica , sans-serif;
+    font-family: "Helvetica Neue" , Helvetica , sans-serif;
     font-size: 16px;
     line-height: 18px;
-    letter-spacing: -0.01em;
-    font-weight: 500;
+    letter-spacing: -0.01em;     
+    font-size: 16px;
+    line-height: 18px;
     margin: 0px;
     padding: 0px;
     background-color: transparent;
@@ -235,7 +237,7 @@ a:hover {
     background-color: transparent;
 }
 .copyright1{
-    font-family: "Helvetica Neue " , Helvetica , sans-serif;
+    font-family: "Helvetica Neue " , Helvetica , sans-serif; 
     bottom: 0;
     left: 0;
     background-color: white;
@@ -284,6 +286,18 @@ a:hover {
     height: 65vw; 
     margin: auto;
     padding: 0px;}
+}
+
+[data-image-id="ImageLandscape"]{ 
+    height: 43vw; 
+    margin: 0px;
+    padding: 10px;}
+}
+
+[data-image-id="ImageLandscape2"]{ 
+    height: 90vw; 
+    margin: 0px;
+    padding: 10px;}
 }
     
 
