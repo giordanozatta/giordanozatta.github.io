@@ -1,10 +1,10 @@
 
-$('.link').click(function(){
+$('.here').click(function(){
     console.log('you clicked');
     window.location.assign('selected.html')
 })
 
-$('.link2').click(function(){
+$('.here2').click(function(){
     console.log('you click');
     window.location.assign('contact.html')
 })

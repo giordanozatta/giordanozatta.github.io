@@ -217,13 +217,34 @@ subtittle{
     z-index: 10;
     color: black;}
 
-a:active,a:visited, a:link{
+a.here:active,a.here:visited, a.here:link{
     color: black;
     text-decoration:none;
     font-style: normal;}
-a:hover {
+a.here:hover {
+    color:inherit;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a.here2:active,a.here2:visited, a.here2:link{
+    color: black;
+    text-decoration:none;
+    font-style: normal;}
+a.here2:hover {
+    color:inherit;
+    text-decoration: underline;
+   cursor: pointer;}
+
+a.link2:active,a.link2:visited, a.link2:link{
+    color: black;
+    text-decoration:none;
+    font-style: normal;}
+a.link2:hover {
     color:lightgrey;
     text-decoration: none;}
+
+
 
 .row {
     display: flex;
