@@ -309,7 +309,12 @@ a.link2:hover {
     padding: 0px;}
 }
 
-[data-image-id="ImageLandscape"]{ 
+[data-image-id="Imagetopleft"]{ 
+    height: 43vw; 
+    margin: 0px;
+    padding: 10px;}
+
+[data-image-id="Imagetopleft2"]{ 
     height: 43vw; 
     margin: 0px;
     padding: 10px;}
