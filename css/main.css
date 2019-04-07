@@ -34,13 +34,16 @@ html{
     padding: 0px;
     font-family: "Helvetica Neue " , Helvetica , sans-serif;    
     color: black;
-    background-color: transparent;}
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: normal;}
 
 .browserupgrade {
     margin: 0.2em 0;
     background: white;
     color: white;
-    padding: 2em 0;}
+    padding: 2em 0;
+    font-size: 16px;}
  
 svg{
     width: 100%;
@@ -68,13 +71,13 @@ text{
     font-family: "Helvetica Neue" , Helvetica , sans-serif;
     letter-spacing: -0.03em;
     font-style: normal; 
-    font-weight: 400;
+    font-weight: normal;
     font-size: 28px;
     margin: 0px;
     padding: 0px;
     }
 
-h1{
+.p1{
     font-family: "Helvetica Neue" , Helvetica , sans-serif;
     font-size: 16px;
     line-height: 18px;
@@ -85,7 +88,8 @@ h1{
     padding: 0px;
     background-color: transparent;
     text-align: left;
-    z-index: 99
+    z-index: 99;
+    font-weight: normal;
 }
 
 .col1 {width: 10%;} 
