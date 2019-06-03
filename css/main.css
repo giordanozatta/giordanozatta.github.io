@@ -36,7 +36,7 @@ html{
     color: black;
     background-color: transparent;
     font-size: 16px;
-    font-weight: normal;}
+    font-weight: 400;}
 
 .browserupgrade {
     margin: 0.2em 0;
@@ -69,13 +69,15 @@ body.fade-out {
 
 text{
     font-family: "Helvetica Neue" , Helvetica , sans-serif;
-    letter-spacing: -0.03em;
+    letter-spacing: -0.01em;
     font-style: normal; 
-    font-weight: normal;
+    font-weight: 400;
     font-size: 28px;
     margin: 0px;
     padding: 0px;
     }
+
+
 
 .p1{
     font-family: "Helvetica Neue" , Helvetica , sans-serif;
@@ -89,7 +91,7 @@ text{
     background-color: transparent;
     text-align: left;
     z-index: 99;
-    font-weight: normal;
+    font-weight: 400;
 }
 
 .col1 {width: 10%;} 
@@ -120,36 +122,11 @@ text{
   }
 }
 
-[data-image-id="ImageLeft"]{ 
-    height: 100vh; 
-    left: 0; 
-    padding: 10px;}
 
 [data-image-id="ImageCentre"]{ 
     height: 100vh;
-    padding: 10px;
-    margin: auto;}
-
-[data-image-id="ImageCentre2"]{ 
-    height: 100vh;
-    padding: 10px;
-    margin: auto;}
-
-data-image-id="ImageCentre3"]{ 
-    height: 100vh;
-    padding: 10px;
-    margin: auto;}
-
-[data-image-id="ImageCentreSpace"]{ 
-    height: 100vh;
     padding: 5%;
     margin: auto;}
-
-
-[data-image-id="ImageCentreNoSpace"]{ 
-    height: 100vh; 
-    margin: auto;
-    padding: 0px;}
 
 carousel {
   position:fixed;
@@ -221,6 +198,24 @@ subtittle{
     z-index: 9999;
     color: black;}
 
+.name{
+  position: absolute;
+  left: 15px;
+  top: 10px;
+  width: auto;
+  position: fixed;
+    z-index: 9999;
+    color: black;}
+
+.design{
+  position: absolute;
+  left: 50%;
+  top: 10px;
+  width: auto;
+  position: fixed;
+    z-index: 9999;
+    color: black;}
+
 a.here:active,a.here:visited, a.here:link{
     color: black;
     text-decoration:none;
@@ -247,6 +242,20 @@ a.link2:active,a.link2:visited, a.link2:link{
 a.link2:hover {
     color:lightgrey;
     text-decoration: none;}
+a {
+  color:inherit;
+  -o-transition:color 0.33s ease-out, background 0.333s ease-in;
+  -ms-transition:color 0.333s ease-out, background 0.333s ease-in;
+  -moz-transition:color 0.333s ease-out, background 0.333s ease-in;
+  -webkit-transition:color 0.333s ease-out, background 0.333s ease-in;
+  transition:color 0.333s ease-out, background 0.333s ease-in;
+    text-decoration: none;
+}
+a:hover { 
+    color:lightgrey; 
+    text-decoration: none;
+}
+
 
 
 
@@ -284,46 +293,19 @@ a.link2:hover {
     line-height: 18px;
     letter-spacing: -0.01em;
       color: black;
-    font-weight: 500;
+    font-weight: 400;
     margin: 0px;
     padding: 0px;
     background-color: transparent;
     text-align: left;
     z-index: 99;}  
 
-    [data-image-id="ImageLeft"]{ 
-    height: 100vh; 
-    left: 0; 
-    padding: 10px;}
 
 [data-image-id="ImageCentre"]{ 
-    height: 65vw;
-    padding: 10px;
-    margin: auto;}
-
-[data-image-id="ImageCentreSpace"]{ 
-    height: 65vw;
+    height: 100vh;
     padding: 5%;
     margin: auto;}
-
-
-[data-image-id="ImageCentreNoSpace"]{ 
-    height: 65vw; 
-    margin: auto;
-    padding: 0px;}
-}
-
-[data-image-id="Imagetopleft"]{ 
-    height: 43vw; 
-    margin: 0px;
-    padding: 10px;}
-
-[data-image-id="Imagetopleft2"]{ 
-    height: 43vw; 
-    margin: 0px;
-    padding: 10px;}
-
-
+  
 
 
 
@@ -344,7 +326,7 @@ h1{
     font-size: 15px;
     line-height: 1.15;
     letter-spacing: -0.01em;
-    font-weight: 500;
+    font-weight: 400;
     margin: 0px;
     padding: 0px;
     color: black;
@@ -370,43 +352,11 @@ h1{
    }
 
 @media only screen and (max-width: 420px){
-[data-image-id="ImageLeft"]{ 
-    height: 124vw; 
-    margin: auto; 
-    padding: 10px;}
 
 [data-image-id="ImageCentre"]{ 
-    height: 72vw; 
-    margin: auto; 
-    padding: 10px;}
-
-[data-image-id="ImageCentre2"]{ 
-    height: 110vw; 
-    margin: auto; 
-    padding: 10px;}
-
-[data-image-id="ImageCentreSpace"]{ 
-    height: 124vw; 
-    margin: auto; 
-    padding: 10px;}
-
-
-[data-image-id="ImageCentreNoSpace"]{ 
-    height: 65vw; 
-    margin: auto;
-    padding: 0px;}
-   
-[data-image-id="ImageCentreSpace"]{ 
-    height: 65vw; 
-    margin: auto;
-    padding: 10px;}
-
-[data-image-id="ImageCentre3"]{ 
-    height: 124vw; 
-    margin: auto;
-    padding: 10px;}
-}
-    
+    height: 100vh;
+    padding: 5%;
+    margin: auto;}
 
 
 
