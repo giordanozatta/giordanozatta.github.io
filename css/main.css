@@ -6,6 +6,7 @@
 ::selection {
     background: transparent;
     text-shadow: none;
+    color: lightgrey;
 }
 
 
@@ -36,7 +37,10 @@ html{
     color: black;
     background-color: transparent;
     font-size: 15px;
-    font-weight: 400;}
+    font-weight: 400;
+     text-rendering: optimizeLegibility;
+
+}
 
 .browserupgrade {
     margin: 0.2em 0;
@@ -49,9 +53,12 @@ svg{
     width: 100%;
     height: 100%;}
 
+
+
+
 body {
     opacity: 1;
-    transition: 1s opacity;
+    transition: 2s opacity;
 }
 body.fade-out {
     opacity: 0;
@@ -60,8 +67,8 @@ body.fade-out {
 .about{
     position: absolute;
     display: block;
-    right: 15px;
-    top: 10px;
+    right: 20px;
+    top: 15px;
     width: auto;
     position: absolute; 
     z-index: 99;
@@ -77,13 +84,28 @@ text{
     padding: 0px;
     }
 
+.spacefirst{
+    width: 100%;
+    height: 13vh;
+}
+
+.space{
+    width: 100%;
+    height: 25vh;
+}
+
+.spacelast{
+    width: 100%;
+    height: 13vh;
+}
+
+
 
 .p1{
     font-family: "Helvetica Neue" , Helvetica , sans-serif;
-    font-size: 15px;
-    line-height: 18px;
-    letter-spacing: -0.01em;     
-    line-height: 18px;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0em;     
     margin: 0px;
     padding: 0px;
     background-color: transparent;
@@ -91,6 +113,7 @@ text{
     z-index: 99;
     font-weight: 400;
 }
+
 
 .col1 {width: 10%;} 
 .col2 {width: 20%;}
@@ -120,11 +143,30 @@ text{
   }
 }
 
+.description{
+    padding-top: 15px;
+    margin-left: 30%;
+    box-sizing: border-box
+    position: fixed;
+    
+}
+
+[data-image-id="ImageCentrefirst"]{ 
+    height: 50%;
+    width: 80%;
+    padding: 10%;
+    margin: auto;
+margin-top:-1%;
+    display: block;
+}
 
 [data-image-id="ImageCentre"]{ 
-    height: 100vh;
-    padding: 5%;
-    margin: auto;}
+    height: 50%;
+    width: 80%;
+    padding: 10%;
+    margin: auto;
+    display: block;
+}
 
 carousel {
   position:fixed;
@@ -134,11 +176,17 @@ carousel {
     z-index: -1;}
 .carousel > img {
   display:none;}
+.carousel > .description {
+  display:none;}
 .carousel > input {
   position:fixed;
   left:-9999px;}
 .carousel > input:checked + label + img {
   display:block;}
+
+.carousel > input:checked + label + .description {
+  display:block;}
+
 .carousel > label,
 .carousel > input:checked ~ label ~ label ~ label ~ label {
   display:none;}
@@ -188,27 +236,33 @@ subtittle{
     padding-left: 0px;}
 
 .about{
-  position: absolute;
-  right: 15px;
-  top: 10px;
+  right: 20px;
+  top: 15px;
   width: auto;
   position: fixed;
     z-index: 9999;
     color: black;}
 
 .name{
-  position: absolute;
-  left: 15px;
-  top: 10px;
+  left: 20px;
+  top: 15px;
   width: auto;
   position: fixed;
+    z-index: 9999;
+    color: black;}
+
+.name2{
+  top: 15px;
+  width: auto;
+  position: fixed;
+    margin-left: 20%;
     z-index: 9999;
     color: black;}
 
 .design{
   position: absolute;
   left: 50%;
-  top: 10px;
+  top: 15px;
   width: auto;
   position: fixed;
     z-index: 9999;
@@ -220,7 +274,7 @@ a.here:active,a.here:visited, a.here:link{
     font-style: normal;}
 a.here:hover {
     color:inherit;
-    text-decoration: underline;
+    text-decoration:underline;
     cursor: pointer;
 }
 
@@ -265,7 +319,8 @@ a:hover {
 .row2 {
     display: flex;
     margin: 0px;
-    padding: 10px;
+    padding-top: 15px;
+    padding-left: 20px;
     background-color: transparent;
 }
 .copyright1{
@@ -289,7 +344,7 @@ a:hover {
     font-family: "Helvetica Neue " , Helvetica , sans-serif;
     font-size: 15px;
     line-height: 18px;
-    letter-spacing: -0.01em;
+    letter-spacing: normal;
       color: black;
     font-weight: 400;
     margin: 0px;
@@ -297,12 +352,6 @@ a:hover {
     background-color: transparent;
     text-align: left;
     z-index: 99;}  
-
-
-[data-image-id="ImageCentre"]{ 
-    height: 100vh;
-    padding: 5%;
-    margin: auto;}
   
 
 

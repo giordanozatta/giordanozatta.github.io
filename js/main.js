@@ -6,9 +6,10 @@ $('.here').click(function(){
 
 $('.here2').click(function(){
     console.log('you click');
-    window.location.assign('contact.html')
+    window.location.assign('information.html')
 })
 
 $(function() {
     $('body').removeClass('fade-out');
 });
+
