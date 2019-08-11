@@ -146,90 +146,11 @@ text{
 .description{
     padding-top: 15px;
     margin-left: 30%;
-    box-sizing: border-box
+    box-sizing: border-box;
     position: fixed;
     
 }
 
-[data-image-id="ImageCentrefirst"]{ 
-    height: 50%;
-    width: 80%;
-    padding: 10%;
-    margin: auto;
-margin-top:-1%;
-    display: block;
-}
-
-[data-image-id="ImageCentre"]{ 
-    height: 50%;
-    width: 80%;
-    padding: 10%;
-    margin: auto;
-    display: block;
-}
-
-carousel {
-  position:fixed;
-    width: 100%;
-  margin:0px;
-    padding: 0px;
-    z-index: -1;}
-.carousel > img {
-  display:none;}
-.carousel > .description {
-  display:none;}
-.carousel > input {
-  position:fixed;
-  left:-9999px;}
-.carousel > input:checked + label + img {
-  display:block;}
-
-.carousel > input:checked + label + .description {
-  display:block;}
-
-.carousel > label,
-.carousel > input:checked ~ label ~ label ~ label ~ label {
-  display:none;}
-.carousel > input:checked + label {
-  display:block;
-  left:0;
-  cursor: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNDBweCIgaGVpZ2h0PSIyNnB4IiB2aWV3Qm94PSIwIDAgNDAgMjYiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQxLjEgKDM1Mzc2KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5TaGFwZTwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxkZWZzPjwvZGVmcz4KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxwb2x5Z29uIGlkPSJTaGFwZSIgZmlsbD0iIzAwMDAwMCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjAuMDAwMDAwLCAxMi44MDIwMDApIHNjYWxlKC0xLCAxKSB0cmFuc2xhdGUoLTIwLjAwMDAwMCwgLTEyLjgwMjAwMCkgIiBwb2ludHM9IjI3LjE5OCAyNS42MDQgMzkuNDk0IDEzLjMwOCA0MCAxMi44MDIgMzkuNDk0IDEyLjI5NiAyNy4xOTggMCAyNi4xODUgMS4wMTIgMzcuMjYgMTIuMDg2IDAgMTIuMDg2IDAgMTMuNTE4IDM3LjI2IDEzLjUxOCAyNi4xODUgMjQuNTkyIj48L3BvbHlnb24+CiAgICA8L2c+Cjwvc3ZnPg=="), auto; }
-.carousel > input:checked ~ label ~ label ~ label {
-  display:block;
-  right:0;
-  cursor: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nNDAnIGhlaWdodD0nMjYnIHZpZXdCb3g9JzAgMCA0MCAyNicgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz48cGF0aCBkPSdNMjcuMTk4IDI2LjYwNGwxMi4yOTYtMTIuMjk2LjUwNi0uNTA2LS41MDYtLjUwNkwyNy4xOTggMWwtMS4wMTMgMS4wMTJMMzcuMjYgMTMuMDg2SDB2MS40MzJoMzcuMjZMMjYuMTg1IDI1LjU5MnonLz48L3N2Zz4K"), auto;}
-.carousel > label {
-  position:absolute;
-  top:0;
-  width:50%;
-  height:100%;
-  visibility:hidden;}
-.carousel > label:before {
-  content:'';
-  display:block;
-  position:fixed;
-  width:100%;
-  height:100%;
-  visibility:visible;}
-.carousel > label:after {
-  display:block;
-  position:fixed;
-  top:50%;
-  width:25px;
-  height:25px;
-  line-height:0px;
-  margin:-15px 10px 0 10px;
-  background-color:transparent;
-  text-align:center;
-  visibility:hidden;}
-.carousel > label:hover:after {
-  visibility:visible;}
-.carousel > input:checked + label:after {
-  left:0;
-  content:'';}
-.carousel > input:checked ~ label ~ label ~ label:after {
-  right:0;
-  content:'';}
 
 subtittle{
     margin: 0px;
@@ -256,17 +177,9 @@ subtittle{
   width: auto;
   position: fixed;
     margin-left: 20%;
-    z-index: 9999;
+    z-index: 999;
     color: black;}
 
-.design{
-  position: absolute;
-  left: 50%;
-  top: 15px;
-  width: auto;
-  position: fixed;
-    z-index: 9999;
-    color: black;}
 
 a.here:active,a.here:visited, a.here:link{
     color: black;
@@ -353,6 +266,20 @@ a:hover {
     text-align: left;
     z-index: 99;}  
   
+    .spacefirst{
+    width: 100%;
+    height: 13vh;
+}
+
+.space{
+    width: 100%;
+    height: 25vh;
+}
+
+.spacelast{
+    width: 100%;
+    height: 13vh;
+}
 
 
 
@@ -405,6 +332,20 @@ h1{
     padding: 5%;
     margin: auto;}
 
+    .spacefirst{
+    width: 100%;
+    height: 13vh;
+}
+
+.space{
+    width: 100%;
+    height: 25vh;
+}
+
+.spacelast{
+    width: 100%;
+    height: 13vh;
+}
 
 
 /* ==========================================================================
