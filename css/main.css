@@ -73,6 +73,15 @@ body.fade-out {
     z-index: 99999;
 }
 
+.work{
+    display:flex;
+    right: 20px;
+    top: 15px;
+    width: auto;
+    position: fixed; 
+    z-index: 99999;
+}
+
 
 
 text{
@@ -282,6 +291,11 @@ h1{
 }
 .about{
         position: fixed;
+        display: block;
+    }   
+    
+.work{
+        position: absolute;
         display: block;
     }    
     
