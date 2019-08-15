@@ -343,10 +343,12 @@ img{
 
 @media only screen and (max-width: 420px){
 
+/*
 [data-image-id="ImageCentre"]{ 
     height: 100vh;
     padding: 5%;
     margin: auto;}
+*/
 
     .spacefirst{
     width: 100%;
