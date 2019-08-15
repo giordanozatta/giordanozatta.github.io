@@ -36,8 +36,6 @@ html{
     font-family: "Helvetica Neue " , Helvetica , sans-serif;    
     color: black;
     background-color: transparent;
-    font-size: 15px;
-    font-weight: 400;
      text-rendering: optimizeLegibility;
 
 }
@@ -53,7 +51,9 @@ svg{
     width: 100%;
     height: 100%;}
 
-
+img{
+    align-content: center;
+}
 
 
 body {
@@ -65,17 +65,19 @@ body.fade-out {
     transition: none;
 }
 .about{
-    position: absolute;
-    display: block;
+    display:flex;
     right: 20px;
     top: 15px;
     width: auto;
-    position: absolute; 
-    z-index: 99;
+    position: fixed; 
+    z-index: 99999;
 }
+
+
 
 text{
     font-family: "Helvetica Neue" , Helvetica , sans-serif;
+    -webkit-font-smoothing:antialiased;
     letter-spacing: -0.01em;
     font-style: normal; 
     font-weight: 400;
@@ -103,6 +105,7 @@ text{
 
 .p1{
     font-family: "Helvetica Neue" , Helvetica , sans-serif;
+    -webkit-font-smoothing:antialiased;
     font-size: 15px;
     line-height: 1.25;
     letter-spacing: 0em;     
@@ -110,7 +113,7 @@ text{
     padding: 0px;
     background-color: transparent;
     text-align: left;
-    z-index: 99;
+    z-index: 999;
     font-weight: 400;
 }
 
@@ -127,21 +130,6 @@ text{
 .col10 {width: 100%;}
 
 
-.animation-blur-load {
-  animation-name: blur-load;
-  animation-duration: .3s;
-  animation-timing-function: ease;
-}
-
-@keyframes blur-load {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-    filter: blur(10px);
-  }
-}
 
 .description{
     padding-top: 15px;
@@ -151,10 +139,6 @@ text{
     
 }
 
-
-subtittle{
-    margin: 0px;
-    padding-left: 0px;}
 
 .about{
   right: 20px;
@@ -218,10 +202,7 @@ a {
 }
 a:hover { 
     color:lightgrey; 
-    text-decoration: none;
-}
-
-
+    text-decoration: none;}
 
 
 .row {
@@ -235,16 +216,6 @@ a:hover {
     padding-top: 15px;
     padding-left: 20px;
     background-color: transparent;
-}
-.copyright1{
-    font-family: "Helvetica Neue " , Helvetica , sans-serif; 
-    bottom: 0;
-    left: 0;
-    background-color: white;
-    position: absolute;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    margin: 0px;
 }
 
 .curvedtext{
@@ -266,7 +237,7 @@ a:hover {
     text-align: left;
     z-index: 99;}  
   
-    .spacefirst{
+.spacefirst{
     width: 100%;
     height: 13vh;
 }
@@ -309,20 +280,51 @@ h1{
   -ms-hyphens: auto;
   hyphens: auto;
 }
+.about{
+        position: fixed;
+        display: block;
+    }    
+    
+/*
+    [data-image-id="imagefirst"]{ 
+    height: auto;
+    padding-top:50px;
+    margin: auto;}
+*/
+  
+.name2{
+  display: none;}   
+    
+img{
+    align-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+    
+.spacefirst{
+    width: 100%;
+    height: 50px;
+}
 
+.space{
+    width: 100%;
+    height: 20px;
+}
+
+.spacelast{
+    width: 100%;
+    height: 20px;
+}    
+
+.row{
+        display: block;
+    } 
 
 .row2{
         display: block;
     }    
     
-.about{
-    position: absolute;
-    display: block;
-    right: 15px;
-    top: 10px;
-    width: auto;
-    position: absolute; 
-    z-index: 99;}
+
    }
 
 @media only screen and (max-width: 420px){
@@ -339,12 +341,12 @@ h1{
 
 .space{
     width: 100%;
-    height: 25vh;
+    height: 20px;
 }
 
 .spacelast{
     width: 100%;
-    height: 13vh;
+    height: 20px;
 }
 
 
