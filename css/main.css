@@ -58,12 +58,8 @@ img{
 
 body {
     opacity: 1;
-    transition: 2s opacity;
 }
-body.fade-out {
-    opacity: 0;
-    transition: none;
-}
+
 .about{
     display:flex;
     right: 20px;
@@ -137,6 +133,47 @@ text{
 .col8 {width: 80%;}
 .col9 {width: 90%;}
 .col10 {width: 100%;}
+
+
+/*fade */
+#fade {
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 
 
 

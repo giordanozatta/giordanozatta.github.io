@@ -9,7 +9,4 @@ $('.here2').click(function(){
     window.location.assign('information.html')
 })
 
-$(function() {
-    $('body').removeClass('fade-out');
-});
 
