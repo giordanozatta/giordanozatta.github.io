@@ -274,21 +274,11 @@ a:hover {
     background-color: transparent;
 }
 
-.curvedtext-desktop{
+.curvedtext{
     width: 100%;
     color: white;
     position:absolute;
-    display: block;
 }
-
-
-.curvedtext-mobile{
-    width: 100%;
-    color: white;
-    position:absolute;
-    display: none;
-}
-
 
 @media only screen and (max-width: 1200px){
   h1{
@@ -334,23 +324,6 @@ a:hover {
 .col10 {width: 100%;}
     
     
-    .curvedtext-desktop{
-    width: 100%;
-    color: white;
-    position:absolute;
-    display: none;
-}
-
-
-.curvedtext-mobile{
-    width: 94%;
-    color: transparent;
-    position:absolute;
-    display:block;
-    box-sizing:border-box;
-    margin: 10px;
-    height: auto;
-}
 
     
 text{
