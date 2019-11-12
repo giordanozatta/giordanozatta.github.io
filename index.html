@@ -8,7 +8,12 @@
         <meta name="description" content="Giordano Zatta is a graphic designer based in Wellington.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="manifest" href="site.webmanifest">
-        <link rel="apple-touch-icon" href="icon.png">
+         <link rel="apple-touch-icon" href="icon.png">
+         <link rel="icon" 
+      type="image/png" 
+      href="icon.png" />
+         <link rel='icon' href='favicon.ico' type='image/x-icon'/>
+        
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
     </head>
@@ -17,15 +22,32 @@
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script>document.body.className += ' fade-out';</script>
         
-        <div class="curvedtext">
-        <svg viewBox="0 0 1000 580">
+        <div class="curvedtext-desktop">
+        <svg viewBox="0 0 1000 500">
               <path id="curve" 
-                    d="M5,30 
+                    d="M3,30 
                        L820,30 
                        C970,30 970,150 970,300
-                       L970,570"
+                       L970,900"
                        stroke="none"
                        fill="none"/>
+                  <text>
+                    <textPath xlink:href="#curve">
+                       Giordano Zatta is a graphic designer based in New Zealand. You can see his work <a  class="here">here</a>, or contact him <a class="here2">here</a>.
+                    </textPath>
+                  </text>
+        </svg>
+            </div>
+        
+        <div class="curvedtext-mobile">
+        <svg viewBox="0 -5 1000 1600">
+              <path id="curve" 
+                    d="M20,50 
+                       L800,50 
+                       C950,50 950,150 950,200
+                       L950,1600"
+                       stroke="none"
+                       fill="red"/>
                   <text>
                     <textPath xlink:href="#curve">
                        Giordano Zatta is a graphic designer based in New Zealand. You can see his work <a  class="here">here</a>, or contact him <a class="here2">here</a>.
@@ -42,7 +64,7 @@
         <script src="js/main.js"></script>
         <script>
             window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
-            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+            ga('create','UA-148189679-1','auto');ga('send','pageview')
         </script>
         <script src="https://www.google-analytics.com/analytics.js" async defer></script>
     </body>

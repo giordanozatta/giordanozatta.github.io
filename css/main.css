@@ -45,7 +45,7 @@ html{
     background: white;
     color: white;
     padding: 2em 0;
-    font-size: 15px;}
+    font-size: 14px;}
  
 svg{
     width: 100%;
@@ -58,12 +58,8 @@ img{
 
 body {
     opacity: 1;
-    transition: 2s opacity;
 }
-body.fade-out {
-    opacity: 0;
-    transition: none;
-}
+
 .about{
     display:flex;
     right: 20px;
@@ -115,7 +111,7 @@ text{
 .p1{
     font-family: "Helvetica Neue" , Helvetica , sans-serif;
     -webkit-font-smoothing:antialiased;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 1.25;
     letter-spacing: 0em;     
     margin: 0px;
@@ -137,6 +133,47 @@ text{
 .col8 {width: 80%;}
 .col9 {width: 90%;}
 .col10 {width: 100%;}
+
+
+/*fade */
+#fade {
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 
 
 
@@ -167,6 +204,16 @@ text{
 
 .name2{
   top: 15px;
+  width: auto;
+  position: fixed;
+    margin-left: 20%;
+    z-index: 999;
+    color: black;
+display: block;}
+
+.name3{
+  top: 15px;
+display: block;
   width: auto;
   position: fixed;
     margin-left: 20%;
@@ -227,11 +274,22 @@ a:hover {
     background-color: transparent;
 }
 
-.curvedtext{
+.curvedtext-desktop{
     width: 100%;
     color: white;
     position:absolute;
+    display: block;
 }
+
+
+.curvedtext-mobile{
+    width: 100%;
+    color: white;
+    position:absolute;
+    display: none;
+}
+
+
 @media only screen and (max-width: 1200px){
   h1{
     font-family: "Helvetica Neue " , Helvetica , sans-serif;
@@ -275,6 +333,38 @@ a:hover {
 .col9 {width: 100%;}
 .col10 {width: 100%;}
     
+    
+    .curvedtext-desktop{
+    width: 100%;
+    color: white;
+    position:absolute;
+    display: none;
+}
+
+
+.curvedtext-mobile{
+    width: 94%;
+    color: transparent;
+    position:absolute;
+    display:block;
+    box-sizing:border-box;
+    margin: 10px;
+    height: auto;
+}
+
+    
+text{
+    font-family: "Helvetica Neue" , Helvetica , sans-serif;
+    -webkit-font-smoothing:antialiased;
+    letter-spacing: -0.01em;
+    font-style: normal; 
+    font-weight: 400;
+    font-size: 48px;
+    margin: 0px;
+    padding: 0px;
+    }
+    
+    
 h1{
     font-family: "Helvetica Neue " , Helvetica , sans-serif;
     font-size: 15px;
@@ -307,7 +397,16 @@ h1{
 */
   
 .name2{
-  display: none;}   
+  display: none;} 
+
+    .name3{
+  top: 25px;
+display: block;
+  width: 100%;
+  position: absolute;
+    margin-left: 20px;
+    z-index: 999;
+    color: black;}
     
 img{
     align-content: center;
@@ -350,6 +449,9 @@ img{
     margin: auto;}
 */
 
+    
+
+    
     .spacefirst{
     width: 100%;
     height: 50px;
@@ -363,7 +465,7 @@ img{
 .spacelast{
     width: 100%;
     height: 20px;
-}
+    }}
 
 
 /* ==========================================================================
